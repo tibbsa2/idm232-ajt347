@@ -1,1 +1,1 @@
-<!-- <h1> My footer</h1> -->
+<h1> My footer</h1>
