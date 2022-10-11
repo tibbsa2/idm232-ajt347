@@ -1,0 +1,64 @@
+W2 PHP Notes
+
+Questions: 
+Does that XAMP thing have anything to do with MAC? 
+
+
+Tutorial Stuff 
+
+Create the root folder for map 
+Open MAMP go to preferences in the upper navigation bar MAMP > Preferences > Server > Link the root folder of your choice 
+- public_html is the naming scheme he chose (it mimics the public_html on bluehost where all the coded files usually is)
+
+Access Test Environment by 
+1. Start MAMP
+2. Start MAMP page 
+3. Type in new address after 8888 port to the file/path of your choice
+
+
+PHP Stuff 
+
+PHP can act like a regular HTML file but with cool PHP stuff 
+
+Inline PHP <? php echo 'what\'s good!'; ?>
+or anywhere on the page 
+Can do logic 
+will get into databases 
+
+
+All statements need semicolon to end 
+
+APPS can be hard putting all logic on the same page is sloppy.. 
+
+External files > Linking it <?php include 'filename.fileextension'>
+include is a php command to include another file in the read 
+
+Create file once and include it everywhere you need it (good for global design things)
+
+PHP kinda swaggy with the includes. 
+
+Can search for other VSCode PHP extensions
+
+Turn on DEbug mode 
+Disable Caching 
+PHP Variables 
+Numbers 
+
+Will use echo (print) console.log()
+
+AND 
+
+var_dump() 
+will tell you info about the varaible to tell you what data type it is 
+
+
+HW 
+6 madatory screens 
+User view & Admin View 
+
+Due week 3 or 4 
+
+alpha.md is html & css for final (integrate php)
+beta.md file include the php code 
+Assigments = 80% of the final project 
+
