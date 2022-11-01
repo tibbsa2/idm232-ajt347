@@ -62,3 +62,103 @@ alpha.md is html & css for final (integrate php)
 beta.md file include the php code 
 Assigments = 80% of the final project 
 
+
+W3     
+
+Site Map 
+Whimsical.com
+? do we have acess to this file? 
+! Join the discord. 
+
+Question: how time consuming with this entire project be for you? 
+
+? being able to prepopulate forms??
+
+Admin positions???
+
+URL queries... 
+In url after ? browser expects you to pass data that they can use later 
+
+each [] is a parameter 
+
+sending shit to the server
+
+symbols 
+? = & ???
+telling 
+
+& AND is like a comma
+
+encode de code. 
+
+Form tags in HTML
+
+... this deals with data. 
+built in ways to collect things outside the form. 
+
+<form action="path-or-url-to-php-etc-file" method="POST<!-- POST or GET -->">
+    <label for="ID-of-input-field">Name of Form</label>
+    <input type="text" value="add underlaying text to input box" id="ID-of-input-field"> <!-- best practice to put in a form tag-->...
+
+
+</form>
+What's the difference between post or get?
+NEVER USE  GET FOR SENSITIVE INFORMATION..... don't store in that type of data 
+CHECK GITHUB repo for types of forms or Mozilla 
+
+NEVER DO WHAT WITH THE POST REQUEST?
+
+
+POST REQUESTS ARE USED A LOT
+
+W5 PHP TODAY
+
+Planning out database. 
+
+Design page to collect data (mainly the forms)
+
+Plan Tables, 
+Plan Data I want to collect 
+
+Login Page 
+
+My SQL to save your data bases 
+naje SQL queries to add info (like Google Sheets)( I'm gonna have to learn how to use excel sheets.)
+
+Learning on my own terms and grow on my own terms. Work part time so I can breathe and do what I want... 
+
+$40 an hour is doable.
+
+Embrace Technology, develop a healthy relationship with technology. Have a better and slower and more compassionate relationship with technology. Be a human that elevates and transitions. Our goal as a people is to evolve and learn as much as we can on repeat. Let our people see what they can discover. Don't destroy ourselves.... For the sake of yourself, you friends, and family, your community, your enemies, and your children, and their children, an infinite loop of the universe within. 
+
+A lot of scenes of technology and converstaions with technology. A lot of aimless walking and inner facing. People consumed with themselves, lack of balance in their vision on the out ward. Abandon your inner and blacken shell.. 
+
+AI automation, the ability to multiple ourselves in these bright yellow boxes. 
+
+MySQL updating everything everywhere. One variable initimated... 
+
+Learn PHP & SQL.... Just to understand the concept as a baseline.... 
+
+USE THE SQL DESKTOP APP
+MAMP phpadmin (to maniuplate teh data base locally.) ugly and outdated design... 
+
+TIME STAP ~35m -4something min.. ~55m got hard again. 
+PHP code will be in GITHUB. 
+
+All apps should encrypt their passwords, is not best practice to store passwords raw. BUT PEOPLE CAN FIGURE OUT YOUR HASCODES, so make good combinations.... 
+
+company should never know what the password is. They give admin unlock and let you make a new one.... 
+
+ IGANITY IS LIKE A CYBER PERSON... it's very easy to break in. The mind games are hard, figuring out where to strike is the hard part, but doing it is easy. People leave things so unsecured!
+
+ People are very vulnerable because they're blend of their own blend spots... The blind leading the blind, can't see the things that matter, but I do. 
+
+ Prefix your data elements to local or whatever, live so you don't delete your live data that people are using... 
+
+ Spend that time to actually figure out who I am to and letting a lot of things go. I need a break from and I'm not ready to commit all of my time to a 9 to 5 for extra money in terms of TIMEEEEE. Time is a much available commoday to me than money, and when I graduate I estimate I will be worth at least $40 dollars based off of how much I will now in the future. If my work ethic improves, I will be worth much more in terms of productivity. So when I work a part time, my contributions within 3 day would a good amount. I think It alway test my creativity, instead of working HARDER and burning out to keep up with the team, I can learn to work SMARTER and learn to cordinate others to help communicate to information to me so I stay in the loop... 
+
+ Make my job more communicate based than thick designs ready to go because those will be projects that will take time. Those three days would be best spent thinking and collaborating with people, and research. Should not be an indiviual project that are supposed to be fast... I would like to learn before pushing to get things done. 
+
+
+
+
