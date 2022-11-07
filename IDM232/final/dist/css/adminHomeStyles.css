@@ -21,18 +21,7 @@ p {
     color: #09080F;
 }
 
-.adminRecipeListContainer {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
 
-.adminPinkRecipeContainer {
-    height: 120px;
-    background-color: #FF6BA0;
-    width: 700px;
-    display: flex;
-}
 
 .adminRecipeImg {
     background-color: gray;
@@ -102,16 +91,52 @@ p {
 
 .editRecipeContainer {
     max-width: 700px;
-    margin: auto;
+    margin: 80px auto;
 }
 
 /* all admin form inputs*/
 .AdminInputStyling {
     margin: 20px 0;
-    background-color: blue;
 }
 
 .inputLabelStyles {
     font-family: 'Istok Web';
     font-size: 20px;
+    margin-right: 10px;
+}
+
+.adminRecipeListContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+.AdminInputBox {
+    width: 250px;
+}
+
+.AdminInputBoxTwo {
+    width: 400px;
+    height: 150px;
+
+}
+
+.buttonChangePosition {
+    margin: 30px 0;
+    display: block;
+}
+
+/* Indiviual Containers */
+.adminPinkRecipeContainer {
+    height: 120px;
+    background-color: #FF6BA0;
+    width: 700px;
+    display: flex;
+    margin: 16px;
+}
+
+fieldset {
+    margin: 20px 0;
 }

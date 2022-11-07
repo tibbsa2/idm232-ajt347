@@ -1,6 +1,26 @@
 
 /*HEADER*/
 /* 01 NAVIGATION BAR*/
+
+.sugarText {
+    font-family: var(--logo-font);
+    font-weight: 700;
+    color: #FFFFF5;
+}
+
+.sugarPink {
+    background-color: #FF6BA0;
+}
+
+.linkText {
+    font-family: var(--regular-font);
+    color: #FFFFF5;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFF5;
+}
 .navBar {
     position: fixed;
     top: 0;
@@ -12,15 +32,19 @@
     height: 60px;
 }
 
-.realsugarHeader {
+.realSugarHeader {
     margin-top: 60px;
-    height: 200px;
-    background-image: url("images/sugarHead.jpg"); 
+    height: 240px;
+    background-image: url("../images/sugarHead.jpg");
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
 }
 /*logo*/
+
+.sugarHeader {
+    color: #E1EE8F;
+}
 .logo {
     display: flex;
 }

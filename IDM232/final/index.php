@@ -1,23 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="css/generalStyles.css">
-   <link rel="stylesheet" href="css/recipeCategoryPage.css">
-    <title>Food for Thought</title>
-</head>
-<body>
-    <!-- Assignment 1 Stuff-->
-    <?php 
-    include_once 'header.php';
-    //$a1 = 'Assignment - 01' ?>
-    
-    <h1> <?php echo $a1; ?></h1>
-
-    <!-- Entire Body for Recipe Category List-->
-    <main class="CategoryListMain">
+<?php
+include_once __DIR__ . '/app.php';
+$page_title = 'Home';
+include_once __DIR__ . '/_components/header.php';
+?>
+<main class="CategoryListMain">
         <div>
             <div class="recipeFilter"> 
                 <h2 class="filterBy">Filter By</h2>
@@ -44,10 +30,9 @@
             <div class="recipeListBody" >
                 <div class="filteredRecipeText sugarText">Filtered Recipes<!-- STATE CHANGE--></div>
                 <!-- LOOP and display based on number of inputs-->
-                <?php include_once 'recipeCategoryListItem.php'; ?>
+                <?php include  __DIR__ . '/_components/recipeCategoryListItem.php'; ?>
             </div>  
         </section>
-    </main>
-    <?php include_once 'footer.php';?>
-</body>
-</html>
+</main>
+<?php include_once __DIR__ . '/_components/footer.php';
+?>

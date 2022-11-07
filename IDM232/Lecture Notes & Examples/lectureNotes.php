@@ -109,6 +109,7 @@ update values...
 
     <hr>
 
+    USED OFTEN IN THE WILD BY THE PROFESSOR 
     <h2>Foreach Loops</h2>
 
     <p class="example">Example:</p>
@@ -116,6 +117,8 @@ update values...
     $ages = [
         4, 8, 15, 16, 23, 42
     ];
+    // This would have the data objects and it would print all of them, this makes things very easy....
+    // has to be an array for the first like shown in the examples... 
 
     foreach ([4, 8, 15, 16, 23, 42] as $age) {
         echo "Age: {$age}<br>";

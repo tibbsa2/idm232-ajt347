@@ -16,20 +16,55 @@ Sugar Food Recipe Site
     --regular-font:'Biryani', sans-serif;
 }
 
-.sugarText, .linkText, h3, h2, h1, p {
-    color: #FFFFF5;
-}
-.sugarText {
+h1, h2 {
     font-family: var(--logo-font);
+}
+
+h3, h4 {
+    font-family: var(--regular-font);
+}
+
+h1 {
+    font-size: 48px;
     font-weight: 700;
 }
 
-.sugarPink {
-    background-color: #FF6BA0;
+h2 {
+    font-size: 36px;
+    font-weight: 700px;
 }
 
-.linkText {
+h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+button {
+    border: none;
+    background-color: #E1EE8F;
+    color: #09080F;
+    padding: 14px 30px;
     font-family: var(--regular-font);
+    font-weight: 700;
+    cursor:pointer;
+}
+
+ h1, h2, h3, h4, p {
+    color: #FFFFF5;
+ }
+
+ p {
+    font-family: var(--regular-font);
+    font-size: 16px;
+ }
+/*
+.sugarText, .linkText, h3, h2, h1, p {
+    color: #FFFFF5;
 }
 
 h2, h3, p {
@@ -62,3 +97,4 @@ h3 {
         font-size: 12px;
         font-family: var(--regular-font);
     }
+    */

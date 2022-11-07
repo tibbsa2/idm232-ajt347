@@ -9,9 +9,8 @@
 <body>
     <section class="adminPinkRecipeContainer">
         <div class="adminRecipeImg"><img  class="adminImgResize" src="images/purplewaffle.jpg" alt="recipe dish image"></div>
-        <div class="adminDishName">Dripping Purple Waffles</div>
-        <div class="adminEditButtonContainer"><button class="adminEditButton">Edit/Delete</button></div>
-
+        <h3 class="adminDishName">Dripping Purple Waffles</h3>
+        <div class="adminEditButtonContainer"><a href="adminEditDeleteRecipe.php"><button class="adminEditButton">Edit/Delete</button></a></div>
     </section>
 </body>
 </html>
