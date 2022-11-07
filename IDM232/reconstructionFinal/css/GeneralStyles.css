@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@200;300;400;600;700;800;900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/*
+Developer: Alexis Tibbs 
+Drexel User: ajt347
+Sugar Food Recipe Site
+*/
+
+/*GENERAL STYLES*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --logo-font:'Istok Web', sans-serif;
+    --regular-font:'Biryani', sans-serif;
+}
+
+h1, h2 {
+    font-family: var(--logo-font);
+}
+
+h3, h4 {
+    font-family: var(--regular-font);
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+button {
+    border: none;
+    background-color: #E1EE8F;
+    color: #09080F;
+    padding: 14px 30px;
+    font-family: var(--regular-font);
+    font-weight: 700;
+    cursor:pointer;
+}
+
+ h1, h2, h3, h4, p {
+    color: #FFFFF5;
+ }
+
+ p {
+    font-family: var(--regular-font);
+    font-size: 16px;
+ }
+/*
+.sugarText, .linkText, h3, h2, h1, p {
+    color: #FFFFF5;
+}
+
+h2, h3, p {
+    padding: 4px 0;
+}
+
+h2 {
+    font-family: var(--logo-font);
+
+}
+h3, p {
+    font-family: var(--regular-font);
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+
+.generalButton {
+        background-color: #E1EE8F;
+        color: #09080F;
+        padding: 6px 10px;;
+        text-align: left;
+        font-size: 12px;
+        font-family: var(--regular-font);
+    }
+    */

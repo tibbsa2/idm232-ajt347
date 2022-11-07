@@ -1,0 +1,88 @@
+p {
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+li {
+    color: #FFFFF5;
+}
+/*SECTION 1 INTRO*/
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+.sec1Intro {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.introContainer {
+    max-width: 900px;
+    display: flex;
+}
+
+.introImg {
+    max-width: 400px;
+    height: auto;
+}
+
+.introText {
+    background-color: #09080F;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+/*SECTION 2 INGREDIENTS*/
+.sec2Ingredients {
+    background-color: #FF6BA0;
+    padding: 50px;
+    display:flex;
+    justify-content: center;
+}
+
+.buffer {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.listedIngredients {
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 30px;
+}
+
+li {
+    padding-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+    right: 250px;
+    list-style: none;
+}
+
+/*SECTION 3 Directions*/
+
+.directionHeader, .ingredientsHeader {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.directionHeader, .recipeStepDescription, .recipeStepHeader {
+    color: #09080F;
+}
+
+.recipeStepContainer {
+    max-width: 700px;
+    margin: auto;
+    padding: 40px 0;
+    margin-bottom: 80px;
+}

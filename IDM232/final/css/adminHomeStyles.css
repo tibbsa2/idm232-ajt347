@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@200;300;400;600;700;800;900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/*ADMIN HOME PAGE STYLES*/
+
+.addRecipeContainer {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.generalButton {
+    border: none;
+    background-color: #E1EE8F;
+    color: #09080F;
+    padding: 10px 16px;
+    text-align: left;
+    font-size: 12px;
+    font-family: var(--regular-font);
+}
+
+p {
+    color: #09080F;
+}
+
+.adminRecipeListContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.adminPinkRecipeContainer {
+    height: 120px;
+    background-color: #FF6BA0;
+    width: 700px;
+    display: flex;
+}
+
+.adminRecipeImg {
+    background-color: gray;
+    height: 100%;
+    width: 25%;
+}
+
+.adminDishName {
+    margin: auto 16px;
+    width: auto;
+    color: #FFFFF5;
+}
+
+.adminEditButtonContainer {
+    margin-left: auto;
+}
+
+.adminEditButton {
+    background-color: #09080F;
+    color: #FFFFF5;
+    border: none;
+    height: 100%;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 16px;
+    cursor:pointer;
+}
+
+.adminImgResize {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/*ADMIN EDIT DELETE PAGE*/
+
+.adminDelete {
+    background-color: #FF7971;
+    color: #09080F;
+    border: none;
+    height: 50px;
+    width: 140px;
+    text-transform: uppercase;
+    padding: 16px;
+    cursor:pointer;
+    margin: 10px;
+}
+
+.adminSubmit {
+    background-color: #E1EE8F;
+    color: #09080F;
+    border: none;
+    height: 50px;
+    width: 140px;
+    text-transform: uppercase;
+    padding: 16px;
+    cursor:pointer;
+    margin: 10px;
+}
+
+.buttonsContainerAddDelete {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+
+.editRecipeContainer {
+    max-width: 700px;
+    margin: auto;
+}
+
+/* all admin form inputs*/
+.AdminInputStyling {
+    margin: 20px 0;
+    background-color: blue;
+}
+
+.inputLabelStyles {
+    font-family: 'Istok Web';
+    font-size: 20px;
+}

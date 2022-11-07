@@ -5,15 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="css/generalStyles.css">
+   <link rel="stylesheet" href="css/headerStyles.css">
+   <link rel="stylesheet" href="css/footerStyles.css">
    <link rel="stylesheet" href="css/recipeCategoryPage.css">
+
     <title>Food for Thought</title>
 </head>
 <body>
     <!-- Assignment 1 Stuff-->
     <?php 
-    include_once 'header.php';
+    include_once 'phpUISnippets/header.php';
     //$a1 = 'Assignment - 01' ?>
-    
     <h1> <?php echo $a1; ?></h1>
 
     <!-- Entire Body for Recipe Category List-->
@@ -44,10 +46,10 @@
             <div class="recipeListBody" >
                 <div class="filteredRecipeText sugarText">Filtered Recipes<!-- STATE CHANGE--></div>
                 <!-- LOOP and display based on number of inputs-->
-                <?php include_once 'recipeCategoryListItem.php'; ?>
+                <?php include_once 'phpUISnippets/recipeCategoryListItem.php'; ?>
             </div>  
         </section>
     </main>
-    <?php include_once 'footer.php';?>
+    <?php include_once 'phpUISnippets/footer.php';?>
 </body>
 </html>

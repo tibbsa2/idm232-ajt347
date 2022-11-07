@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/headerStyles.css">
-  <title>IDM 232 - Final Project</title>
+  <link rel="stylesheet" href="../css/GeneralStyles.css">
+  <link rel="stylesheet" href="../css/headerStyles.css">
+  <title>IDM 232 - HEADER</title>
 </head>
 <body>
   <!-- Navigation Bar -->
   <nav class="navBar sugarPink">
     <div class="leftNav">
-      <div class="logo">
+      <a href="index.php"><div class="logo">
         <div><img class="navLogoResize" src="images/sugarLogo.png" alt="Sugar Logo"></div>
         <div class="sugarText sugarTextLogo">Sugar Food</div>
       </div>
+      </a>
       <div class="navOptions"> 
           <ul id="navOptions">
-            <li class="linkText">Login</li>
-            <li class="linkText">Recipe</li>
+            <li class="linkText"><a href="adminHome.php">Login</a></li>
+            <li class="linkText"><a href="index.php">Recipe</a></li>
           </ul>
       </div>
     </div>

@@ -1,0 +1,34 @@
+/*FOOTER*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.footerContainer {
+    display: flex;
+}
+
+.footerContainer > div {
+    padding: 0 10px;
+}
+
+.footerLogoResize {
+    height: 80px;
+    width: auto;
+}
+.soSweet {
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.footerText {
+    text-align: center;
+    margin: auto;
+}
+.footerSugarFood {
+    font-size: 40px;
+}
+

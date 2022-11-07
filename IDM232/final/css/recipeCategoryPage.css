@@ -1,0 +1,104 @@
+/* CSS Styles for the main Recipe Category page*/
+
+/* Recipe Category Listin*/
+
+.CategoryListMain {
+    min-height: 550px;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+.centerCatLM {
+    border: solid 0.5px;
+    padding: 10px;
+    margin-left: 10%;
+}
+
+/*Filter Black Box*/
+.recipeFilter {
+    background-color: #09080F;
+    color:#FFFFF5;
+    min-height: 370px;
+    max-width: 260px;
+    padding: 24px;
+}
+
+.categoryMealTypeButtons {
+    display: flex;
+    flex-direction: column;
+    margin: 6px 0;
+}
+
+.categoryMealTypeButtons > * {
+    border: .7px solid #FFFFF5;
+    background-color: #E1EE8F;
+    color: #FFFFF5;
+    padding: 6px 10px;;
+    text-align: left;
+    font-size: 12px;
+    font-family: var(--regular-font);
+}
+
+.filterBy {
+    font-size: 20px;
+}
+.biryanna {
+    font-weight: 200;
+    font-size: 14px;
+    margin: 14px 0;
+    border-bottom: .5px solid #FFFFF5;
+}
+
+.ingredientSearch {
+    width: 150px;
+}
+
+.filterForm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.filterSubmitButton {
+    margin-top: 30px;
+    background-color: #E1EE8F;
+    border: none;
+    padding: 12px 0;
+    font-family: var(--logo-font);
+    font-weight: 700;
+}
+
+/*RIGHT SIDE*/
+
+.recipeListBody {
+    max-width: 700px;
+    display: block;
+    border: solid;
+}
+
+.recipeListContainer {
+    height:200px;
+    background-color: #FF6BA0;
+    margin: 10px 0;
+    width: 700px;
+    display: flex;
+}
+
+
+.filteredRecipeText {
+    text-align: right;
+    color:#09080F;
+    font-weight:
+}
+
+/*Img Stuff*/
+
+.categoryItemImg {
+    height: 200px;
+    width: auto;
+}
+
+.recipePreviewTextContainer {
+    padding: 14px;
+}

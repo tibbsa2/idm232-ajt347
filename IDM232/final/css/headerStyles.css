@@ -1,0 +1,68 @@
+
+/*HEADER*/
+/* 01 NAVIGATION BAR*/
+.navBar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:1;
+    overflow: hidden;
+    display: flex;
+    padding: 4px 36px;
+    height: 60px;
+}
+
+.realsugarHeader {
+    margin-top: 60px;
+    height: 200px;
+    background-image: url("images/sugarHead.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+}
+/*logo*/
+.logo {
+    display: flex;
+}
+.navLogoResize {
+    height: 26px;
+    width: auto;
+}
+.sugarTextLogo {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 8px;
+    margin: auto;
+}
+
+.sugarHeader {
+    text-align: center;
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 42px;
+    text-shadow: 2px 4px 10px rgba(58, 42, 103, .4);
+
+}
+
+.leftNav {
+    display: flex;
+    align-items: center;
+}
+
+#navOptions li {
+    display: inline;
+    padding: 0px 24px;
+}
+
+.rightNav {
+    margin: auto 0 auto auto;
+}
+
+/*SEARCH BAR*/
+.navSearch {
+    max-width: 340px;
+    padding: 0 10px;
+    height: 32px;
+}
+
+/*END HEADER*/
