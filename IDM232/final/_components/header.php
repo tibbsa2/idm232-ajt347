@@ -19,6 +19,8 @@ $document_title = $page_title . ' | ' . $site_title; // Home | JAWN Clips
   <link rel="stylesheet" href="<?php echo site_url(); ?>/dist/css/generalStyles.css">
   <link rel="stylesheet" href="<?php echo site_url(); ?>/dist/css/headerStyles.css">
   <link rel="stylesheet" href="<?php echo site_url(); ?>/dist/css/footerStyles.css">
+  <link rel="stylesheet" href="<?php echo site_url(); ?>/dist/css/adminHomeStyles.css"> 
+  <link rel="stylesheet" href="<?php echo site_url(); ?>/dist/css/iRecipeDetails.css"> 
   <link rel="stylesheet" href="<?php echo site_url(); ?>/dist/css/recipeCategoryPage.css"> 
   <title><?php echo $document_title ; ?></title>
 </head>

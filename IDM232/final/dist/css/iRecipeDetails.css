@@ -61,7 +61,7 @@ img {
     margin: 30px;
 }
 
-li {
+.RecipeListItems {
     padding-bottom: 10px;
     padding-left: 20px;
     position: relative;
@@ -85,4 +85,12 @@ li {
     margin: auto;
     padding: 40px 0;
     margin-bottom: 80px;
+}
+
+.changePreviewText, .overviewDescription {
+    color:#FFFFF5;
+}
+
+.changeTitleText {
+    font-size: 36px;
 }

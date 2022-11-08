@@ -1,4 +1,4 @@
-<a href="iRecipeDetails.php" alt="Listed Recipe Preview">
+<a href="detail.php" alt="Listed Recipe Preview">
     <div class="recipeListContainer">
         <div class="recipePreviewImgContainer">
             <img class="categoryItemImg" src="<?php echo site_url(); ?>/dist/images/purplewaffle.jpg" alt="Recipe Image">
