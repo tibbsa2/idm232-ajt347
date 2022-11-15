@@ -4,9 +4,9 @@ include_once __DIR__ . '/app.php';
 $page_title = 'REPLACE ME';
 include_once __DIR__ . '/_components/header.php';
 ?>
-<!-- DO I need the php code at that is in the starter file? -->
+
 <main>
-        <form class="editRecipeContainer" action="<?php echo site_url(); ?>/_includes/create-recipe.php" method="POST">
+        <form class="editRecipeContainer" action="<?php echo site_url(); ?>/_includes/process-edit-users.php" method="POST">
             <div class="AdminInputStyling">
                 <label class="inputLabelStyles" for="TitleInput">Title:</label>
                 <input class="AdminInputBox" type="text" name="title" id="TitleInput">
@@ -58,9 +58,8 @@ include_once __DIR__ . '/_components/header.php';
                     </div>
             </fieldset>
             <div class="buttonsContainerAddDelete">
-            <!-- Why is this not working?-->
-            <button class="adminDelete"><a href="<?php echo site_url() . '/_includes/delete-recipe.php' ?>">Delete</a></button> 
-            <button class="adminSubmit">Submit</button>
+            <button class="adminDelete"><a href="<?php echo site_url() . '/_includes/delete-recipe.php' ?>">Delete</a></button>
+            <button class="adminSubmit">Update</button>
             </div>
         </form>
         <!-- END OF FORM/START OF SUBMIT BUTTONS-->

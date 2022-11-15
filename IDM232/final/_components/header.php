@@ -22,6 +22,7 @@ $document_title = $page_title . ' | ' . $site_title; // Home | JAWN Clips
   <link rel="stylesheet" href="<?php echo site_url(); ?>/dist/css/adminHomeStyles.css"> 
   <link rel="stylesheet" href="<?php echo site_url(); ?>/dist/css/iRecipeDetails.css"> 
   <link rel="stylesheet" href="<?php echo site_url(); ?>/dist/css/recipeCategoryPage.css"> 
+  <script src="https://cdn.tiny.cloud/1/v67ll55h4y28idnitbz6ay4x2jxk60qtyc0hg54tws51bmfu/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
   <title><?php echo $document_title ; ?></title>
 </head>
 

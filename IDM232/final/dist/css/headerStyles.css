@@ -44,6 +44,7 @@ a {
 
 .sugarHeader {
     color: #E1EE8F;
+    z-index: 10;
 }
 .logo {
     display: flex;
