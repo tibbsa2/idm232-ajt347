@@ -7,24 +7,25 @@ if (!$_POST) {
 
 // Store $_POST data to variables for readability
 $title = $_POST['title'];
-$prep_time = $_POST['prep_time'];
-$cook_time = $_POST['cook_time'];
+$prep_time = (int)$_POST['prep_time'];
+$cook_time = (int)$_POST['cook_time'];
 $overview = $_POST['overview'];
 $ingredients = $_POST['ingredients'];
 $directions = $_POST['directions'];
 $meal_type = $_POST['meal_type'];
+$id = $_POST['id'];
 
 
 // Create a SQL statement to insert the data into the database
-$query = "UPDATE recipes SET title = '{$title}', prep_time = '{$prep_time}', cook_time = '{$cook_time}', overview = '{$overview}' ingredients = '{$ingredients}', directions = '{$directions}', meal_type = '{$meal_type}' WHERE id = {$id}";
-
+$result = edit_recipes($title, $prep_time, $cook_time, $overview, $ingredients, $directions, $meal_type, $id);
+// var_dump($query);
+// die;
 // Run the SQL statement
-$result = mysqli_query($db_connection, $query);
 
 // Check there are no errors with our SQL statement
 if ($result) {
-    redirect_to('/admin');
+    redirect_to('/adminHome.php');
 } else {
     $error_message = 'User was not updated';
-    redirect_to('/admin/users?error=' . $error_message);
+    redirect_to('/adminHome.php?error=' . $error_message);
 }

@@ -10,6 +10,23 @@ function add_recipes($title, $prep_time, $cook_time, $overview, $ingredients, $d
     return $result;
 }
 
+
 // EDIT RECIPE 
+function edit_recipes($title, $prep_time, $cook_time, $overview, $ingredients, $directions, $meal_type, $id)
+{
+    global $db_connection;
+    $query = 'UPDATE recipes';
+    $query .= " SET title = '{$title}', prep_time = '{$prep_time}', cook_time = '{$cook_time}', overview = '{$overview}', ingredients = '{$ingredients}', directions = '{$directions}', meal_type = '{$meal_type}'";
+    $query .= " WHERE id = $id";
+    $result = mysqli_query($db_connection, $query);
+    return $result;
+}
 
 // DELETE RECIPE 
+function delete_recipes_by_id($id)
+{
+    global $db_connection;
+    $query = "DELETE FROM recipes WHERE id = $id";
+    $result = mysqli_query($db_connection, $query);
+    return $result;
+}

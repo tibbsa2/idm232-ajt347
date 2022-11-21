@@ -25,7 +25,7 @@ include_once __DIR__ . '/_components/header.php';
             </div>
             <div class="AdminInputStyling">
                 <label class="inputLabelStyles" for="OverviewDescriptionInput">Overview Description:</label>
-                <textarea id="overview" name="overview" rows="3" cols="50">
+                <textarea id="overview" name="overview" rows="3" cols="50" class="textarea">
                 Add recipe overview description
                 </textarea>
             </div>
@@ -33,7 +33,7 @@ include_once __DIR__ . '/_components/header.php';
             <div>
                 <div class="AdminInputStyling"><label class="inputLabelStyles" for="AddIngredients">Ingredients:</label>
                 <!-- <input class="AdminInputBox" type="Text" name="AddIngredients" id="AddIngredients"> -->
-                <textarea id="ingredients" name="ingredients" rows="3" cols="50">
+                <textarea id="ingredients" name="ingredients" rows="3" cols="50" class="textarea">
                 Make a list of ingredients
                 </textarea>
                 <!-- <button class="buttonChangePosition">Add Ingredients</button> -->
@@ -41,7 +41,7 @@ include_once __DIR__ . '/_components/header.php';
             </div>
             <div>
                 <div class="AdminInputStyling"><label class="inputLabelStyles" for="AddDirections">Directions:</label>
-                <textarea id="directions" name="directions" rows="3" cols="50">
+                <textarea id="directions" name="directions" rows="3" cols="50" class="textarea">
                 Add directions with steps 
                 </textarea>
                 </div>
