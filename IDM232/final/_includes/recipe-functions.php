@@ -30,3 +30,12 @@ function delete_recipes_by_id($id)
     $result = mysqli_query($db_connection, $query);
     return $result;
 }
+
+// GET RECIPE
+function get_recipes()
+{
+    global $db_connection;
+    $query = 'SELECT * FROM recipes';
+    $result = mysqli_query($db_connection, $query);
+    return $result;
+}

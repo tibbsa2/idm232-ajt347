@@ -17,8 +17,8 @@ include_once __DIR__ . '/_components/header.php';
                 </div>
                 <div>
                     <h3 class="biryanna">Special Ingredients</h3>
-                    <form class="filterForm">
-                        <input class="navSearch ingredientSearch" type="search" id="site-search" name="q" placeholder="Search for ingredients...">
+                    <form class="filterForm" action="<?php echo site_url(); ?>/search.php" method="GET">
+                        <input class="navSearch ingredientSearch" type="text" id="site-search" name="search" placeholder="Search for ingredients...">
                         <!-- Something will pop here when things are typed in-->
                         <button class="filterSubmitButton" >Submit</button>
                     </form>
@@ -30,7 +30,7 @@ include_once __DIR__ . '/_components/header.php';
             <div class="recipeListBody" >
                 <div class="filteredRecipeText sugarText">Filtered Recipes<!-- STATE CHANGE--></div>
                 <!-- LOOP and display based on number of inputs-->
-                <?php include  __DIR__ . '/_components/recipeCategoryListItem.php'; ?>
+                <?php include  __DIR__ . '/search.php'; ?>
             </div>  
         </section>
 </main>

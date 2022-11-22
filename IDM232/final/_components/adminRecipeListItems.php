@@ -14,6 +14,5 @@ while ($recipe_row = mysqli_fetch_array($recipe_result)) {
             </button>
     </div>
 </section>";
-// Why is this not working? button <a> is not linking to the correct page</a>
 }
 ?>

@@ -45,8 +45,17 @@ $document_title = $page_title . ' | ' . $site_title; // Home | JAWN Clips
       </div>
     </div>
     <div class="rightNav"> 
-      <form> 
-        <input class="navSearch" type="search" id="site-search" name="q" placeholder="Search for receipe...">
+<?php // Check if search exist in query
+if (isset($_GET['search'])) {
+    $search = $_GET['search'];
+} else {
+    $search = '';
+}
+?>
+
+
+      <form class="navSearch" action="<?php echo site_url(); ?>/search.php" method="GET"> 
+        <input class="navSearch" type="search" id="site-search" name="search" placeholder="Search for receipe..." value="<?php echo $search; ?>">
       </form>
     </div>
 </nav>
