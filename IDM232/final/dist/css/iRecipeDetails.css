@@ -87,10 +87,23 @@ img {
     margin-bottom: 80px;
 }
 
-.changePreviewText, .overviewDescription {
+.changePreviewText, .overviewDescription p,.RecipeListItems p{
     color:#FFFFF5;
 }
 
+
 .changeTitleText {
     font-size: 36px;
+}
+
+.dishIntro {
+    color:#FFFFF5;
+}
+
+.recipeStepDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+    max-width: 300px;
 }

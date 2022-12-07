@@ -26,7 +26,7 @@ if ($result->num_rows > 0) {
             </div>
             <div class="AdminInputStyling">
                 <label class="inputLabelStyles" for="ImgInput">Image:</label>
-                <input type="file" name="ImgInput" id="ImgInput"><!-- must be a png or jpg -->
+                <input value="<?php echo $recipe['image']?>" class="AdminInputBox" type="text" name="image" id="ImgInput"><!-- must be a png or jpg -->
             </div>
             <div class="AdminInputStyling">
                 <label class="inputLabelStyles" for="PrepTimeInput">Prep Time:</label>

@@ -2,12 +2,26 @@
 
 /* Recipe Category Listin*/
 
+@media screen and (min-width:1200px) {
+    .recipeListContainer {
+        width: 700px;
+    }
+
+    .CategoryListMain {
+        min-height: 550px;
+        display: flex;
+        margin: 80px 0;
+        margin-left: 10%;
+        margin-right: 20%;
+    }
+}
 .CategoryListMain {
     min-height: 550px;
     display: flex;
     margin: 80px 0;
     margin-left: 10%;
     margin-right: 20%;
+    flex-wrap: wrap;
 }
 
 .centerCatLM {
@@ -82,9 +96,8 @@
     height:200px;
     background-color: #FF6BA0;
     margin: 10px 0;
-    width: 700px;
+    max-width: 700px;
     display: flex;
-    flex-direction: column;
 }
 
 

@@ -13,9 +13,10 @@ $overview = $_POST['overview'];
 $ingredients = $_POST['ingredients'];
 $directions = $_POST['directions'];
 $meal_type = $_POST['meal_type'];
+$image = $_POST['image'];
 
 
-$result = add_recipes($title, $prep_time, $cook_time, $overview, $ingredients, $directions, $meal_type);
+$result = add_recipes($title, $image, $prep_time, $cook_time, $overview, $ingredients, $directions, $meal_type);
 
 // Check there are no errors with our SQL statement
 if ($result) {

@@ -40,7 +40,7 @@ $document_title = $page_title . ' | ' . $site_title; // Home | JAWN Clips
       <div class="navOptions"> 
           <ul id="navOptions">
             <li class="linkText"><a href="adminHome.php">Login</a></li>
-            <li class="linkText"><a href="index.php">Recipe</a></li>
+            <li class="linkText"><a href="listing.php">Recipe Listing</a></li>
           </ul>
       </div>
     </div>

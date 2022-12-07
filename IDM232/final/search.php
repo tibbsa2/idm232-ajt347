@@ -39,6 +39,4 @@ if ($results->num_rows > 0) {
            include __DIR__ . '/_components/recipeListing.php';
       }
 ?>
-
-
-<?php include_once __DIR__ . '/_components/footer.php';?>
+<?php include  __DIR__ . '/_components/footer.php';?>

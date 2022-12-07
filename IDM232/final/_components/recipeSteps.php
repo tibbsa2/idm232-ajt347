@@ -1,4 +1,4 @@
 <div class="recipeStepContainer">
     <h3 class="recipeStepHeader">Step 1</h3> <!-- Change based on input -->
-    <p class="recipeStepDescription">Tatooed waiters artisnal anything yuk yum you'll need to roll me out of here free wifi pork crackling turmeric icecream suasages and mash. Surfing the menu cash only this is cold finger licking good Margeret River slow cooked BBQ surf and turf. The mystery box biodynamic more celebrity than chef cronuts perfect fusion Aesop handwash tapas anything I'll ask the somelier. Campers fish tacos a sneeky kebab deconstructed tacos open kitchen let's have authentic street food kimchi tacos.</p>
+    <p class="recipeStepDescription"><?php echo $recipe['ingredients']?></p>
 </div>

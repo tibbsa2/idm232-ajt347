@@ -4,17 +4,31 @@ include_once __DIR__ . '/app.php';
 $page_title = 'recipe detail';
 include_once __DIR__ . '/_components/header.php';
 ?>
+<?php
+// get users data from database
+$query = "SELECT * FROM recipes WHERE id = {$_GET['id']}";
+$result = mysqli_query($db_connection, $query);
+if ($result->num_rows > 0) {
+    // Get row from results and assign to $user variable;
+    $recipe = mysqli_fetch_assoc($result);
+} else {
+    $error_message = 'User does not exist';
+    redirect_to('/adminHome.php?error=' . $error_message);
+}
 
-<section class="sec1Intro">
+?>
+    <section class="sec1Intro">
         <div class="introContainer">
-            <div class="introImg"><img src="<?php echo site_url(); ?>/dist/images/purplewaffle.jpg"></div>
+            <?php $site_url = site_url();?>
+            <div class="introImg"><img src="<?php echo "{$site_url}/dist/images/{$recipe['image']}"?>" alt=''></div>
             <div class="introText">
                 <div class="introHeaderInfo">
-                    <h2>Overview</h2>
-                    <h3>Time to Prep: 30min Time to Cook: 30min Total Time: 60min</h3>
+                    <h2>Overview: <span><?php echo $recipe['title']?></span></h2>
+                    <h3>Time to Prep: <span><?php echo $recipe['prep_time']?></span> min Time to Cook: <span><?php echo $recipe['cook_time']?></span> min</h3>
                 </div>
                 <div class="dishIntro">
-                    <p class="overviewDescription">Tatooed waiters artisnal anything yuk yum you'll need to roll me out of here free wifi pork crackling turmeric icecream suasages and mash. Surfing the menu cash only this is cold finger licking good Margeret River slow cooked BBQ surf and turf. The mystery box biodynamic more celebrity than chef cronuts perfect fusion Aesop handwash tapas anything I'll ask the somelier.</p>
+                    <div class="overviewDescription"><?php echo $recipe['overview']?>
+                    </div>
                 </div>
             </div>
         </div>
@@ -25,20 +39,14 @@ include_once __DIR__ . '/_components/header.php';
             <h2 class="ingredientsHeader">Ingredients</h2>
             <ul class="listedIngredients">
                 <!-- AUTOMATE -->
-                <li class="RecipeListItems">2 tbsp Crushed Red Pepper</li>
-                <li class="RecipeListItems">2 tbsp Crushed Red Pepper</li>
-                <li class="RecipeListItems">2 tbsp Crushed Red Pepper</li>
-                <li class="RecipeListItems">2 tbsp Crushed Red Pepper</li>
-                <li class="RecipeListItems">2 tbsp Crushed Red Pepper</li>
-                <li class="RecipeListItems">2 tbsp Crushed Red Pepper</li>
-                <li class="RecipeListItems">2 tbsp Crushed Red Pepper</li>
+                <div class="RecipeListItems"><?php echo $recipe['ingredients']?>
+                </div>
             </ul>
         </div>
     </section>
+
     <!-- STEPS-->
     <h2 class="directionHeader">Directions</h2>
-    <?php include __DIR__ . '/_components/recipeSteps.php';?>
-    <?php include __DIR__ . '/_components/recipeSteps.php';?>
-    <?php include __DIR__ . '/_components/recipeSteps.php';?>
+    <div class="recipeStepDescription"><?php echo $recipe['directions']?></div>
 
 <?php include_once __DIR__ . '/_components/footer.php';

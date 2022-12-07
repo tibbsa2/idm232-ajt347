@@ -25,7 +25,7 @@ a {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index:1;
+    z-index:10;
     overflow: hidden;
     display: flex;
     padding: 4px 36px;
@@ -44,7 +44,6 @@ a {
 
 .sugarHeader {
     color: #E1EE8F;
-    z-index: 10;
 }
 .logo {
     display: flex;

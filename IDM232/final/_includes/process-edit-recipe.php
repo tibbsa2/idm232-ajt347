@@ -13,11 +13,12 @@ $overview = $_POST['overview'];
 $ingredients = $_POST['ingredients'];
 $directions = $_POST['directions'];
 $meal_type = $_POST['meal_type'];
+$image = $_POST['image'];
 $id = $_POST['id'];
 
 
 // Create a SQL statement to insert the data into the database
-$result = edit_recipes($title, $prep_time, $cook_time, $overview, $ingredients, $directions, $meal_type, $id);
+$result = edit_recipes($title, $image, $prep_time, $cook_time, $overview, $ingredients, $directions, $meal_type, $id);
 // var_dump($query);
 // die;
 // Run the SQL statement

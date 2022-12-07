@@ -13,7 +13,7 @@ include_once __DIR__ . '/_components/header.php';
             </div>
             <div class="AdminInputStyling">
                 <label class="inputLabelStyles" for="ImgInput">Image:</label>
-                <input type="file" name="ImgInput" id="ImgInput"><!-- must be a png or jpg -->
+                <input class="AdminInputBox" type="text" name="image" id="ImgInput"><!-- must be a png or jpg -->
             </div>
             <div class="AdminInputStyling">
                 <label class="inputLabelStyles" for="PrepTimeInput">Prep Time:</label>
@@ -63,7 +63,8 @@ include_once __DIR__ . '/_components/header.php';
             <button class="adminSubmit">Submit</button>
             </div>
         </form>
-        <!-- END OF FORM/START OF SUBMIT BUTTONS-->
+        <!-- END OF FORM/START OF SUBMIT BUTTONS
+            /dist/images/purplewaffle.jpg-->
 </main>
 
 

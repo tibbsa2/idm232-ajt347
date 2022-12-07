@@ -1,10 +1,10 @@
 <?php
-function add_recipes($title, $prep_time, $cook_time, $overview, $ingredients, $directions, $meal_type)
+function add_recipes($title, $image, $prep_time, $cook_time, $overview, $ingredients, $directions, $meal_type)
 {
     global $db_connection;
     $query = 'INSERT INTO recipes';
-    $query .= ' (title, prep_time, cook_time, overview, ingredients, directions, meal_type )';
-    $query .= " VALUES ('$title', '$prep_time', '$cook_time', '$overview', '$ingredients', '$directions', '$meal_type')";
+    $query .= ' (title, image, prep_time, cook_time, overview, ingredients, directions, meal_type )';
+    $query .= " VALUES ('$title', '$image', '$prep_time', '$cook_time', '$overview', '$ingredients', '$directions', '$meal_type')";
     
     $result = mysqli_query($db_connection, $query);
     return $result;
@@ -12,11 +12,11 @@ function add_recipes($title, $prep_time, $cook_time, $overview, $ingredients, $d
 
 
 // EDIT RECIPE 
-function edit_recipes($title, $prep_time, $cook_time, $overview, $ingredients, $directions, $meal_type, $id)
+function edit_recipes($title, $image, $prep_time, $cook_time, $overview, $ingredients, $directions, $meal_type, $id)
 {
     global $db_connection;
     $query = 'UPDATE recipes';
-    $query .= " SET title = '{$title}', prep_time = '{$prep_time}', cook_time = '{$cook_time}', overview = '{$overview}', ingredients = '{$ingredients}', directions = '{$directions}', meal_type = '{$meal_type}'";
+    $query .= " SET title = '{$title}', image = '{$image}', prep_time = '{$prep_time}', cook_time = '{$cook_time}', overview = '{$overview}', ingredients = '{$ingredients}', directions = '{$directions}', meal_type = '{$meal_type}'";
     $query .= " WHERE id = $id";
     $result = mysqli_query($db_connection, $query);
     return $result;

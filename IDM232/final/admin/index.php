@@ -12,7 +12,7 @@ include_once __DIR__ . '/../_components/header.php';
             </div>
             <div class="AdminInputStyling">
                 <label class="inputLabelStyles" for="ImgInput">Image:</label>
-                <input type="file" name="ImgInput" id="ImgInput"><!-- must be a png or jpg -->
+                <input type="text" name="ImgInput" id="ImgInput"><!-- must be a png or jpg -->
             </div>
             <div class="AdminInputStyling">
                 <label class="inputLabelStyles" for="PrepTimeInput">Prep Time:</label>

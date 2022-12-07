@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Biryani:wght@200;300;400;600;700;800;900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 /*ADMIN HOME PAGE STYLES*/
 
+@media screen and (min-width:800px) {
+    .adminPinkRecipeContainer {
+        width: 700px;
+    }
+}
 .addRecipeContainer {
     display: flex;
     justify-content: center;
@@ -21,7 +26,15 @@ p {
     color: #09080F;
 }
 
+.black {
+    color: #09080F;
+}
 
+.welcome {
+    text-align: center;
+    justify-content: center;
+    margin: 225px 0;
+}
 
 .adminRecipeImg {
     background-color: gray;
@@ -132,7 +145,7 @@ p {
 .adminPinkRecipeContainer {
     height: 120px;
     background-color: #FF6BA0;
-    width: 700px;
+    max-width: 700px;
     display: flex;
     margin: 16px;
 }
